@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  }
+  
+  .subscribe {
+    margin: auto;
+    padding: 120px 0;
+    /* background-image: url(https://code.s3.yandex.net/web-code/images/00-zero/pixel-perfect/background.png); */
+    background-repeat: no-repeat;
+    background-position: 680px;
+    background-size: 380px 472px;
+  }
+  
+  .subscribe-content {
+    border: 1px solid #000;
+    padding: 45px 470px 45px 45px;
+  }
+  
+  .subscribe-title {
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .subscribe-input {
+    width: 400px;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 15px;
+    font-family: inherit;
+    font-size: inherit;
+    appearance: none;
+  }
+  
+  .subscribe-button {
+    margin-left: -1px;
+    border: 1px solid #000;
+    padding: 15px 40px;
+    color: #000;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: inherit;
+    text-transform: uppercase;
+    background-color: #ffc802;
+    cursor: pointer;
+  }
+  
+  .pixel-perfect-image {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+      filter: sepia(0.6);
+  } 
